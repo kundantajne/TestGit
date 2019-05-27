@@ -1,0 +1,41 @@
+abstract class compartment
+{
+    abstract public void notice();
+}
+
+class firstclass extends compartment 
+{
+    public void notice() {
+        System.out.println("First class compartment(Reserved use only)");
+    }
+}
+
+class ladies extends compartment 
+{
+    public void notice() {
+        System.out.println("Reserved for ladies");
+    }
+}
+
+class general extends compartment 
+{
+    public void notice() {
+        System.out.println("General compartment");
+    }
+}
+
+class luggage extends compartment 
+{
+    public void notice() {
+        System.out.println("Compartment for luggages");
+    }
+}
+
+ class testcompartment 
+{
+    public static void main(String[] args) 
+	{
+        	compartment c1=new compartment();
+		c1.notice();
+        }
+}

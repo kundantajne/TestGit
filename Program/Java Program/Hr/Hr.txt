@@ -1,0 +1,43 @@
+class Hr
+{
+	double comision;
+
+	Hr()
+	{
+		comission=120;
+	}
+
+	Hr(double c)
+	{
+		comission=c;
+	}
+
+	void setComission(double c)
+	{
+		comission=c;
+	}
+
+	int getComission()
+	{
+		return comission;
+	}
+
+	void display()
+	{
+		System.out.println("Comission is : "+getComission());
+	}	
+
+}
+
+class HrMain
+{
+
+	public static void main(String []args)
+	{
+		Hr h1=new Hr();
+		h1.display();
+
+		Hr h2=new Hr(2000);
+		h2.display();
+	}
+}

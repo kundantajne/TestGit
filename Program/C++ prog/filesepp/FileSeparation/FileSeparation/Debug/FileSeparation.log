@@ -1,0 +1,19 @@
+﻿Build started 4/11/2019 2:38:33 PM.
+     1>Project "E:\Program\C++ prog\filesepp\FileSeparation\FileSeparation\FileSeparation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>e:\program\c++ prog\filesepp\fileseparation\fileseparation\main.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>e:\program\c++ prog\filesepp\fileseparation\fileseparation\main.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Program\C++ prog\filesepp\FileSeparation\Debug\FileSeparation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Program\C++ prog\filesepp\FileSeparation\Debug\FileSeparation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Program\C++ prog\filesepp\FileSeparation\Debug\FileSeparation.lib" /MACHINE:X86 Debug\Admin.obj
+         Debug\Emp.obj
+         Debug\Sm.obj
+         Debug\Main.obj
+     1>Main.obj : error LNK2019: unresolved external symbol "class Admin __cdecl a1(void)" (?a1@@YA?AVAdmin@@XZ) referenced in function _main
+     1>E:\Program\C++ prog\filesepp\FileSeparation\Debug\FileSeparation.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\Program\C++ prog\filesepp\FileSeparation\FileSeparation\FileSeparation.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.52
